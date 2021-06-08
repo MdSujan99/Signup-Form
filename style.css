@@ -5,11 +5,7 @@
 
 }
 body{
-<<<<<<< HEAD
     background-image: url("bg-intro-desktop.png");
-=======
-    background-image: url(./bg-intro-desktop.png);
->>>>>>> 8f5380657b38fed840317117d3f2a972fc8caee1
     background-color: rgb(255, 119, 119);
     font-family: 'Barlow', sans-serif;
     width: 100%;

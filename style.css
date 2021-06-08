@@ -111,7 +111,7 @@ a:hover{
     color: rgba(98, 98, 98, 0.63);
     font-size: .9rem;
 }
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 375px) {
     body{
         background-image: url(/bg-intro-mobile.png);
         flex-direction: column;

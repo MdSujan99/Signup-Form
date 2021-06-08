@@ -5,7 +5,7 @@
 
 }
 body{
-    background-image: url(/images/bg-intro-desktop.png);
+    background-image: url(/bg-intro-desktop.png);
     background-color: rgb(255, 119, 119);
     font-family: 'Barlow', sans-serif;
     width: 100%;
@@ -27,7 +27,7 @@ button{
 }
 button:active{
     background-color: rgb(3, 29, 17);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 input{
     width: 100%;
@@ -125,17 +125,18 @@ a:hover{
         height: 100vh;
     }
     .background-container{
+        background-image: url(./bg-intro-mobile.png);
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         width: 100%;
         height: 90%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
     .main-text-container{
         width: 100%;
         height: 30%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
     }
     .main-text-container>article{
         height: 90%;
@@ -145,7 +146,7 @@ a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         font-size: .8rem;
     }
     .main-text-container h1{
@@ -154,7 +155,7 @@ a:hover{
     .main-form-container{
         height: 70%;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         justify-content: space-around;
         /* align-items: center; */
     }
@@ -179,6 +180,8 @@ a:hover{
         justify-content: center;
         align-items: center;
         text-align: center;
+        font-size: 1rem;
+        padding: 10px;
     }
     .main-form-banner>p{
         font-weight: lighter;

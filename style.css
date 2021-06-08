@@ -113,11 +113,7 @@ a:hover{
 }
 @media screen and (max-width: 376px) {
     body{
-<<<<<<< HEAD
         background-image: url("bg-intro-mobile.png");
-=======
-        background-image: url(./bg-intro-mobile.png);
->>>>>>> 8f5380657b38fed840317117d3f2a972fc8caee1
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
